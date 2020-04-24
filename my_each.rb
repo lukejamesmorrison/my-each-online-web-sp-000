@@ -4,5 +4,6 @@ def my_each(array)
   
   while index < array.length - 1
     yield(item)
+    index += 1
   end
 end
