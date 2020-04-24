@@ -7,6 +7,8 @@ def my_each(array)
     yield(item)
     index += 1
   end
+  
+  array
 end
 
 
