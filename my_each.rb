@@ -5,7 +5,6 @@ def my_each(array)
   while index < array.length do
     item = array[index]
     yield(item)
-    puts item
     index += 1
   end
 end
