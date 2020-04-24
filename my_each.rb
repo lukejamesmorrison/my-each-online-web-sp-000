@@ -1,7 +1,8 @@
 def my_each(array)
   
-  array.each do |item|
+  index = 0
+  
+  while index < array.length - 1
     yield(item)
   end
-  
 end
